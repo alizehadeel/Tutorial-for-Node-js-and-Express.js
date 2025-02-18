@@ -1,2 +1,7 @@
-const john='John'
-const peter='Peter'
+//local 
+const john='john'
+
+//global
+const peter='peter'
+
+module.exports =  {john, peter};
