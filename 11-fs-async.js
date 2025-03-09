@@ -22,7 +22,7 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
             console.log('File written successfully!');
         });
     });
-});
+});//the benefit here is that the callbacks run after the entire code, but this is useful when user is reading or writing to the file that takes alot of file and then the code wont work for anyone else 
 
 // const  {readFile, writeFile} = require('fs')
 // //both options are same
